@@ -71,7 +71,6 @@ The `environment.yml` file includes all necessary libraries:
 - holoviews
 - panel
 - jupyter_bokeh
-- tensorflow-gpu (if available)
 
 ## Input and Output Directories
 
