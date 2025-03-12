@@ -80,4 +80,4 @@ The `environment.yml` file includes all necessary libraries:
 
 ## Support
 
-If you encounter any issues or have questions, please open an issue in this repository.
+If you encounter any issues or have questions, please contact Peyman Namadi (peyman.hosseinzadehnamadi@water.ca.gov)
