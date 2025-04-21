@@ -1,0 +1,43 @@
+name: ML_Workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.9.21
+  
+  # Scientific computing
+  - numpy
+  - scipy
+  - pandas
+  
+  # Machine learning
+  - scikit-learn=1.5.2
+  - xgboost=2.1.1
+  
+  # Visualization
+  - matplotlib=3.9.2
+  - seaborn=0.13.2
+  - bokeh
+  - holoviews
+  - hvplot
+  - panel
+  
+  # Jupyter environment
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - nb_conda_kernels
+  - jupyter_bokeh
+  
+  # Utilities
+  - tqdm=4.66.5
+  
+  # Pip packages - TensorFlow and related
+  - pip
+  - pip:
+    - tensorflow==2.18.0
+    - tensorboard==2.18.0
+    - keras==3.8.0
+    - transformers==4.41.0
