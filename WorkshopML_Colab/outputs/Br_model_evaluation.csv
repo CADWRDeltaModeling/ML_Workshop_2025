@@ -1,0 +1,7 @@
+Model,Dataset,MAE,Percentage Bias,R2
+Random Forest,Training,0.01,1.58,0.99
+Random Forest,Test,0.03,3.83,0.96
+XGBoost,Training,0.02,3.25,0.99
+XGBoost,Test,0.03,6.13,0.96
+Neural Network,Training,0.03,8.87,0.96
+Neural Network,Test,0.04,12.39,0.94
